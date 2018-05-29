@@ -1,17 +1,19 @@
 h2{
     font-size : 28px;
+    font-weight: bold;
     color : #3388BB;
     text-transform : uppercase;
-    border-bottom : 3px solid #3388DD;
+    text-decoration: underline #3388DD;
+    margin-left: 5px;
 }
 body{
-    background-color: #CCCCCC;
+    background-image:url(Fond.jpg);
+    background-attachment:fixed;
 }
 
 .page{
-    font-size : 16px;
+    font-size : 20px;
     font-family : 'Source sans Pro' , Calibri, Tahoma, sans-serif;
-    width: 1200px;
     margin : auto;
     padding: 60px;
     border : 5px solid #3388CC;
@@ -19,31 +21,22 @@ body{
     box-shadow : 2px 4px 3px black;
     background-color : #FFFFFF;
 }
-
+.octicon {
+    display: inline-block;
+    vertical-align: text-top;
+    fill: currentColor;
+  }
 .photo{
-    height : 3%;
-    width : 5%;
+    height : 5%;
+    width : 9%;
 }
-
-.info{
-    float : left;
-}
-
-.photo{
-    float: right;
-}
-
 .section{
-   margin-bottom : 70px; 
+   margin-bottom : 30px; 
    text-align : justify;
 }
 .sec-gauche{
-    float : left;
     font-weight: normal;
     font-size: 20px;
-}
-.sec-droite{
-    margin-left: 250px;
 }
 .duree{
     font-weight : normal;
@@ -58,5 +51,10 @@ body{
     font-size: 20px
 }
 .title-section{
-    margin-left: 25px
+    margin-left: 15px;
+    margin-bottom : 15px; 
+}
+.section-part{
+    text-align : justify;
+    margin-left: 2px;
 }
